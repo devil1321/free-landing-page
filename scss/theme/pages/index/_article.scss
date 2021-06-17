@@ -30,5 +30,12 @@
         width: 50%;
         height: 800px;
         @include createFlex(column,center,flex-start,null);
+        button{
+            border:0px;
+            background: transparent;
+            i{
+                margin-left: 5px;
+            }
+        }
     }
 }

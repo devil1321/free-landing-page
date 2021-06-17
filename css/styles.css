@@ -359,4 +359,13 @@ button {
       -ms-flex-align: start;
           align-items: flex-start;
 }
+
+.article__right-group button {
+  border: 0px;
+  background: transparent;
+}
+
+.article__right-group button i {
+  margin-left: 5px;
+}
 /*# sourceMappingURL=styles.css.map */
