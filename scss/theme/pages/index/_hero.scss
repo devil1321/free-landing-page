@@ -112,17 +112,11 @@
         width: 100% !important;
     }
     &__card-2{
-        display: none;
-        transform: translateX(12%) translateY(0%);
-        width: 150% !important;
-        z-index: 4; 
-    }
-    &__card-3{
         z-index: 3;
         width: 80%;
         transform: translateX(55%) translateY(0%);
     }
-    &__card-4{
+    &__card-3{
         z-index: 2;
         width: 120%;
         transform: translateX(0%) translateY(0%);

@@ -9,13 +9,13 @@
 /*------------------COMPONENTS-----------------*/
 
 @import './components/nav';
-@import './components/hero';
-@import './components/cards-one';
-@import './components/article';
-@import './components/feature';
-@import './components/testimonials';
-@import './components/footer';
+
 
 /*------------------PAGES----------------------*/
-
-@import './pages/index';
+// index
+@import './pages/index/hero';
+@import './pages/index/cards-one';
+@import './pages/index/article';
+@import './pages/index/feature';
+@import './pages/index/testimonials';
+@import './pages/index/end';
