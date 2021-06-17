@@ -1,0 +1,34 @@
+.article{
+    @include createFlex(row,space-between,flex-start,wrap);
+    &__left-group{
+        width: 50%;
+        position: relative;
+        top:0px;
+        left:0px;
+    }
+    &__svg-wrapper{
+        width: 100%;
+        position: absolute;
+        top:0px;
+        left:0px;
+        &:first-of-type{
+            left:-150px;
+            svg{
+                width: 120%;
+            }
+        }
+        &:last-of-type{
+            left:-100px;
+            top:250px;
+            z-index: 2;
+            svg{
+                width: 150%;
+            }
+        }
+    }
+    &__right-group{
+        width: 50%;
+        height: 800px;
+        @include createFlex(column,center,flex-start,null);
+    }
+}
