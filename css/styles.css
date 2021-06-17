@@ -401,4 +401,95 @@ button {
 .article__right-group button i {
   margin-left: 5px;
 }
+
+.feature {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.feature__left-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 50%;
+  height: 700px;
+}
+
+.feature__left-group button {
+  position: relative;
+  left: -5px;
+  top: 0px;
+  border: 0px;
+  outline: none;
+  background: transparent;
+}
+
+.feature__left-group button i {
+  margin-left: 5px;
+}
+
+.feature__left-group button:active {
+  outline: none;
+}
+
+.feature__right-group {
+  width: 50%;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.feature__right-group:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: -200px;
+  top: -500px;
+  width: 1200px;
+  height: 1200px;
+  background-image: url("../../../../assets/elipse-gray.svg");
+  background-size: cover;
+}
+
+.feature__svg-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.feature__svg-wrapper:first-of-type {
+  top: -300px;
+  left: 100px;
+}
+
+.feature__svg-wrapper:last-of-type {
+  left: -100px;
+}
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,55 @@
+.feature{
+    position:relative;
+    left:0px;
+    top:0px;
+    z-index: 3;
+    @include createFlex(row,space-between,center,wrap);
+    &__left-group{
+        @include createFlex(column,center,flex-start,null);
+        width: 50%;
+        height:700px;
+        button{
+            position: relative;
+            left:-5px;
+            top:0px;
+            border:0px;
+            outline:none;
+            background: transparent;
+            i{
+                margin-left: 5px;
+            }
+            &:active{
+                outline:none;
+            }
+        }
+    }
+    &__right-group{
+        width: 50%;
+        position:relative;
+        left:0px;
+        top:0px;
+        &:after{
+            content:'';
+            position:absolute;
+            z-index: -1;
+            left:-200px;
+            top:-500px;
+            width:1200px;
+            height:1200px;
+            background-image: url('../../../../assets/elipse-gray.svg');
+            background-size: cover;
+        }
+    }
+    &__svg-wrapper{
+        position: absolute;
+        top:0px;
+        left:0px;
+        &:first-of-type{
+            top:-300px;
+            left:100px;
+        }
+        &:last-of-type{
+            left:-100px;
+        }
+    }
+}
