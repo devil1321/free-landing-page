@@ -21,6 +21,10 @@
             &::placeholder{
                 font-style: italic;
             }
+            &:focus{
+                border:0px;
+                outline:none;
+            }
         }
         button{
             margin-left: 10px;

@@ -134,6 +134,11 @@ button {
   font-style: italic;
 }
 
+.hero__text input:focus {
+  border: 0px;
+  outline: none;
+}
+
 .hero__text button {
   margin-left: 10px;
   padding: 10px 20px;
