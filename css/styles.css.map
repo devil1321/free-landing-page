@@ -1,19 +1,20 @@
 {
     "version": 3,
-    "mappings": "AAAA,gDAAgD;AAGhD,OAAO,CAAP,yEAAO;AAKP,iDAAiD;AASjD,iDAAiD",
+    "mappings": "AAAA,gDAAgD;AAGhD,OAAO,CAAP,yEAAO;AGHP,OAAO,CAAC,wFAAI;ACAZ,AAAA,CAAC,CAAA;EACG,eAAe,EAAE,IAAI;EACrB,KAAK,EHGK,OAAO;CGFpB;;AACD,AAAA,EAAE,EAAC,EAAE,CAAA;EACD,WAAW,EHOP,GAAG;EGNP,KAAK,EHDK,OAAO;CGEpB;;AACD,AAAA,CAAC,CAAA;EACG,WAAW,EHCH,GAAG;EGAX,KAAK,EHLK,OAAO;CGMpB;;AAED,AAAA,UAAU,CAAA;EACN,WAAW,EHPR,QAAQ,EAAE,UAAU;CGQ1B;;AJPD,iDAAiD;AAUjD,iDAAiD",
     "sources": [
         "../scss/theme/styles.scss",
-        "../scss/variables.scss",
-        "../scss/mixins.scss",
-        "../scss/fonts.scss",
-        "../scss/global.scss",
-        "../scss/theme/components/hero.scss",
-        "../scss/theme/components/cards-one.scss",
-        "../scss/theme/components/article.scss",
-        "../scss/theme/components/feature.scss",
-        "../scss/theme/components/testimonials.scss",
-        "../scss/theme/components/footer.scss",
-        "../scss/theme/pages/index.scss"
+        "../scss/_variables.scss",
+        "../scss/_mixins.scss",
+        "../scss/_fonts.scss",
+        "../scss/_global.scss",
+        "../scss/theme/components/_nav.scss",
+        "../scss/theme/components/_hero.scss",
+        "../scss/theme/components/_cards-one.scss",
+        "../scss/theme/components/_article.scss",
+        "../scss/theme/components/_feature.scss",
+        "../scss/theme/components/_testimonials.scss",
+        "../scss/theme/components/_footer.scss",
+        "../scss/theme/pages/_index.scss"
     ],
     "names": [],
     "file": "styles.css"
