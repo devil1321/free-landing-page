@@ -5,6 +5,30 @@
         position: relative;
         top:0px;
         left:0px;
+        &:after{
+            content:'';
+            position:absolute;
+            left:-500px;
+            top:-100px;
+            z-index: -1;
+            width: 700px;
+            height: 700px;
+            background-image: url('../../../../assets/line.svg');
+            background-size: cover;
+            transform: rotate(250deg);
+            
+        }
+        &:before{
+            content:'';
+            position:absolute;
+            left:-450px;
+            top:350px;
+            width: 700px;
+            height: 700px;
+            background-image: url('../../../../assets/elipse.svg');
+            background-size: cover;
+
+        }
     }
     &__svg-wrapper{
         width: 100%;

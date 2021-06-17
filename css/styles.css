@@ -322,6 +322,31 @@ button {
   left: 0px;
 }
 
+.article__left-group:after {
+  content: '';
+  position: absolute;
+  left: -500px;
+  top: -100px;
+  z-index: -1;
+  width: 700px;
+  height: 700px;
+  background-image: url("../../../../assets/line.svg");
+  background-size: cover;
+  -webkit-transform: rotate(250deg);
+          transform: rotate(250deg);
+}
+
+.article__left-group:before {
+  content: '';
+  position: absolute;
+  left: -450px;
+  top: 350px;
+  width: 700px;
+  height: 700px;
+  background-image: url("../../../../assets/elipse.svg");
+  background-size: cover;
+}
+
 .article__svg-wrapper {
   width: 100%;
   position: absolute;
