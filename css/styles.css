@@ -499,7 +499,9 @@ button {
   top: 0px;
   left: 0px;
   margin-top: 100px;
+  padding-bottom: 100px;
   width: 100%;
+  border-bottom: 1px solid #dadada;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -566,5 +568,63 @@ button {
 
 .testimonials__profile-person p {
   margin: 3px 5px;
+}
+
+.end {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.end__text {
+  margin: 0px auto;
+  width: 25%;
+  text-align: center;
+}
+
+.end__form {
+  margin: 0px auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.end__form input {
+  min-width: 220px;
+  padding: 8px;
+  padding-top: 10px;
+  border: 0px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+  border-radius: 25px;
+}
+
+.end__form input::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.end__form input:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.end__form input::-ms-input-placeholder {
+  font-style: italic;
+}
+
+.end__form input::placeholder {
+  font-style: italic;
+}
+
+.end__form input:focus {
+  border: 0px;
+  outline: none;
+}
+
+.end__form button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 0px;
+  background-color: #FD5353;
+  color: #FFFFFF;
 }
 /*# sourceMappingURL=styles.css.map */
