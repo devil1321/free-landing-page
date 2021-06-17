@@ -1,0 +1,20 @@
+/*------------------GLOBAL--------------------*/
+
+@import '../variables';
+@import '../normalize';
+@import '../mixins';
+@import '../fonts';
+@import '../global';
+
+/*------------------COMPONENTS-----------------*/
+
+@import './components/hero';
+@import './components/cards-one';
+@import './components/article';
+@import './components/feature';
+@import './components/testimonials';
+@import './components/footer';
+
+/*------------------PAGES----------------------*/
+
+@import './pages/index';
