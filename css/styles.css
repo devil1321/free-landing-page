@@ -1,25 +1,224 @@
 /*------------------GLOBAL--------------------*/
+/*-------------------COLORS-----------------------*/
+/*-------------------FONT-COLORS------------------*/
+/*-------------------FONT-SIZES-------------------*/
+/*-------------------FONT-WEIGHTS-----------------*/
 @import url(c:\Users\Dominik\Desktop\PSD & XD\FreeLandingPage\scss\normalize.css);
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+body {
+  background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
   color: #1E1C24;
 }
 
-h1, h2 {
-  font-weight: 900;
+h1 {
+  font-family: "Roboto", sans-serif;
   color: #1E1C24;
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #1E1C24;
+  font-weight: 400;
 }
 
 p {
-  font-weight: 400;
-  color: #1E1C24;
+  font-family: "Roboto", sans-serif;
+  color: #B1AAAA;
+  font-weight: 300;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
 }
 
 .container {
   font-family: "Roboto", sans-serif;
+  padding: 0px 80px;
 }
 
 /*------------------COMPONENTS-----------------*/
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__logo {
+  font-size: pxToRem(22);
+}
+
+.nav__btn {
+  padding: 8px 16px;
+  color: #FFFFFF;
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.hero__left-group {
+  width: 50%;
+}
+
+.hero__text {
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.hero__text h2 {
+  font-weight: 900;
+}
+
+.hero__text p {
+  width: 70%;
+}
+
+.hero__text input {
+  min-width: 220px;
+  padding: 8px;
+  padding-top: 10px;
+  border: 0px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+          box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.35);
+  border-radius: 25px;
+}
+
+.hero__text input::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.hero__text input:-ms-input-placeholder {
+  font-style: italic;
+}
+
+.hero__text input::-ms-input-placeholder {
+  font-style: italic;
+}
+
+.hero__text input::placeholder {
+  font-style: italic;
+}
+
+.hero__text button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 0px;
+  background-color: #FD5353;
+  color: #FFFFFF;
+}
+
+.hero__form {
+  margin-top: 30px;
+}
+
+.hero__brands {
+  margin-top: 130px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero__brands img {
+  width: 80%;
+}
+
+.hero__brands img:first-of-type {
+  width: 50%;
+}
+
+.hero__right-group {
+  width: 50%;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.hero__bgs-wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.hero__bgs {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  -webkit-transform: translateX(10%);
+          transform: translateX(10%);
+}
+
+.hero__bg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  -webkit-transform: translateX(0%) translateY(-40%);
+          transform: translateX(0%) translateY(-40%);
+}
+
+.hero__bg img {
+  width: 80%;
+}
+
+.hero__bg:nth-of-type(2) {
+  -webkit-transform: translateX(5%) translateY(-31%);
+          transform: translateX(5%) translateY(-31%);
+}
+
+.hero__bg:nth-of-type(2) img {
+  width: 70%;
+}
+
+.hero__bg:last-of-type {
+  -webkit-transform: translateX(10%) translateY(-19%);
+          transform: translateX(10%) translateY(-19%);
+}
+
+.hero__bg:last-of-type img {
+  width: 60%;
+}
+
 /*------------------PAGES----------------------*/
 /*# sourceMappingURL=styles.css.map */
