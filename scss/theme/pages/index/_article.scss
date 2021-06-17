@@ -31,6 +31,9 @@
         height: 800px;
         @include createFlex(column,center,flex-start,null);
         button{
+            position: relative;
+            left:-5px;
+            top:0px;
             border:0px;
             background: transparent;
             i{

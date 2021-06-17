@@ -361,6 +361,9 @@ button {
 }
 
 .article__right-group button {
+  position: relative;
+  left: -5px;
+  top: 0px;
   border: 0px;
   background: transparent;
 }
