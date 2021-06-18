@@ -43,10 +43,9 @@ tl_card_one
             scrollTrigger:{
             trigger:'.cards-one__icon-1',
             toggleActions:"none none none none",
-            start:"-=200px",
-            end:"-=200px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:5,
-            markers:true,
             onLeaveBack: self => self.disable()
             },
             transform: 'translateY(0px)',
@@ -57,10 +56,9 @@ tl_card_one
             scrollTrigger:{
             trigger:'#Rectangle_537',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
-            markers:true,
             onLeaveBack: self => self.disable()
             },
             duration:1,
@@ -70,10 +68,9 @@ tl_card_one
             scrollTrigger:{
             trigger:'#Rectangle_541',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
-            markers:true,
             onLeaveBack: self => self.disable()
             },
             duration:1,
@@ -83,10 +80,9 @@ tl_card_one
             scrollTrigger:{
             trigger:'#Rectangle_542',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
-            markers:true,
             onLeaveBack: self => self.disable()
             },
             duration:1,
@@ -96,8 +92,8 @@ tl_card_one
             scrollTrigger:{
             trigger:'#Rectangle_537',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
             onLeaveBack: self => self.disable()
             },
@@ -108,8 +104,8 @@ tl_card_one
             scrollTrigger:{
             trigger:'#Rectangle_543',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
             onLeaveBack: self => self.disable()
             },
@@ -120,8 +116,8 @@ tl_card_one
             scrollTrigger:{
             trigger:'#Rectangle_544',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
             onLeaveBack: self => self.disable()
             },
@@ -134,10 +130,9 @@ tl_card_two
             scrollTrigger:{
             trigger:'.cards-one__icon-2',
             toggleActions:"none none none none",
-            start:"-=200px",
-            end:"-=200px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:5,
-            markers:true,
             onLeaveBack: self => self.disable()
             },
             transform: 'translateY(0px)',
@@ -149,10 +144,9 @@ tl_card_two
             scrollTrigger:{
             trigger:'#Rectangle_537',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
-            markers:true,
             onLeaveBack: self => self.disable()
             },
             duration:1,
@@ -162,10 +156,9 @@ tl_card_two
             scrollTrigger:{
             trigger:'#Rectangle_546',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
-            markers:true,
             onLeaveBack: self => self.disable()
             },
             duration:1,
@@ -175,10 +168,9 @@ tl_card_two
             scrollTrigger:{
             trigger:'#Rectangle_547',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
-            markers:true,
             onLeaveBack: self => self.disable()
             },
             duration:1,
@@ -188,8 +180,8 @@ tl_card_two
             scrollTrigger:{
             trigger:'#Rectangle_548',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
             onLeaveBack: self => self.disable()
             },
@@ -200,8 +192,8 @@ tl_card_two
             scrollTrigger:{
             trigger:'#Rectangle_545',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
             onLeaveBack: self => self.disable()
             },
@@ -212,8 +204,8 @@ tl_card_two
             scrollTrigger:{
             trigger:'#Rectangle_551',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
             onLeaveBack: self => self.disable()
             },
@@ -224,8 +216,8 @@ tl_card_two
             scrollTrigger:{
             trigger:'#Rectangle_550',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
             onLeaveBack: self => self.disable()
             },
@@ -236,8 +228,8 @@ tl_card_two
             scrollTrigger:{
             trigger:'#Rectangle_549',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
             onLeaveBack: self => self.disable()
             },
@@ -250,10 +242,9 @@ tl_card_three
             scrollTrigger:{
             trigger:'.cards-one__icon-3',
             toggleActions:"none none none none",
-            start:"-=200px",
-            end:"-=200px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:5,
-            markers:true,
             onLeaveBack: self => self.disable()
             },
             transform: 'translateY(0px)',
@@ -265,10 +256,9 @@ tl_card_three
             scrollTrigger:{
             trigger:'#Ellipse_19-2',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
-            markers:true,
             onLeaveBack: self => self.disable()
             },
             duration:1,
@@ -278,10 +268,9 @@ tl_card_three
             scrollTrigger:{
             trigger:'#Ellipse_20-2',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
-            markers:true,
             onLeaveBack: self => self.disable()
             },
             duration:1,
@@ -291,10 +280,9 @@ tl_card_three
             scrollTrigger:{
             trigger:'#Ellipse_19',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
-            markers:true,
             onLeaveBack: self => self.disable()
             },
             duration:1,
@@ -304,8 +292,8 @@ tl_card_three
             scrollTrigger:{
             trigger:'#Ellipse_20',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
             onLeaveBack: self => self.disable()
             },
@@ -316,8 +304,8 @@ tl_card_three
             scrollTrigger:{
             trigger:'#Rectangle_538',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
             onLeaveBack: self => self.disable()
             },
@@ -328,8 +316,8 @@ tl_card_three
             scrollTrigger:{
             trigger:'#Rectangle_539',
             toggleActions:"none none none none",
-            start:"-=250px",
-            end:"-=250px",
+            start:"-=400px",
+            end:"-=400px",
             scrub:1,
             onLeaveBack: self => self.disable()
             },
