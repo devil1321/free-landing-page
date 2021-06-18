@@ -75,6 +75,49 @@ button {
 }
 
 /*------------------PAGES----------------------*/
+/*---------------HERO-ONE-----------------*/
+.hero__card-1 {
+  opacity: 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#Mask-one {
+  opacity: 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#Rectangle_503 {
+  width: 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#Rectangle_507 {
+  width: 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#Rectangle_504 {
+  width: 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#Rectangle_505 {
+  width: 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#Rectangle_506 {
+  width: 0;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
 .hero {
   display: -webkit-box;
   display: -ms-flexbox;
