@@ -37,94 +37,303 @@ gsap.registerPlugin(ScrollTrigger);
 const tl_card_one = new gsap.timeline()
 const tl_card_two = new gsap.timeline()
 const tl_card_three = new gsap.timeline()
-tl_card_one
-.to('.cards-one__icon-1',{
-      scrollTrigger:{
-      trigger:'.cards-one__icon-1',
-      toggleActions:"none none none none",
 
-      start:"-=200px",
-      end:"-=200px",
-      scrub:1,
-      markers:true,
-      onLeaveBack: self => self.disable()
-      },
-      transform: 'translateY(0px)',
-      opacity:1,
-      duration:0.5,
-})
-.to('#Rectangle_537',{
-      scrollTrigger:{
-      trigger:'#Rectangle_537',
-      toggleActions:"none none none none",
-      start:"-=250px",
-      end:"-=200px",
-      scrub:1,
-      markers:true,
-      onLeaveBack: self => self.disable()
-      },
-      duration:0.5,
-      width:44.333
-})
-.to('#Rectangle_541',{
-      scrollTrigger:{
-      trigger:'#Rectangle_541',
-      toggleActions:"none none none none",
-      start:"-=250px",
-      end:"-=200px",
-      scrub:1,
-      markers:true,
-      onLeaveBack: self => self.disable()
-      },
-      duration:0.5,
-      width:13.333
-})
-.to('#Rectangle_542',{
-      scrollTrigger:{
-      trigger:'#Rectangle_542',
-      toggleActions:"none none none none",
-      start:"-=250px",
-      end:"-=200px",
-      scrub:1,
-      markers:true,
-      onLeaveBack: self => self.disable()
-      },
-      duration:0.5,
-      width:24.333
-})
-.to('#Rectangle_537',{
-      scrollTrigger:{
-      trigger:'#Rectangle_537',
-      toggleActions:"none none none none",
-      start:"-=250px",
-      end:"-=200px",
-      scrub:1,
-      onLeaveBack: self => self.disable()
-      },
-      duration:0.5,
-      width:44.333
-})
-.to('#Rectangle_543',{
-      scrollTrigger:{
-      trigger:'#Rectangle_543',
-      toggleActions:"none none none none",
-      start:"-=250px",
-      end:"-=200px",
-      scrub:1,
-      onLeaveBack: self => self.disable()
-      },
-      duration:0.5,
-      width:74.333
-})
-.to('#Rectangle_544',{
-      scrollTrigger:{
-      trigger:'#Rectangle_544',
-      toggleActions:"none none none none",
-      start:"-=250px",
-      end:"-=200px",
-      scrub:1,
-      onLeaveBack: self => self.disable()
-      },
-      duration:0.5,
-      width:74.333
-})
+tl_card_one
+      .to('.cards-one__icon-1',{
+            scrollTrigger:{
+            trigger:'.cards-one__icon-1',
+            toggleActions:"none none none none",
+            start:"-=200px",
+            end:"-=200px",
+            scrub:5,
+            markers:true,
+            onLeaveBack: self => self.disable()
+            },
+            transform: 'translateY(0px)',
+            opacity:1,
+            duration:1,
+      })
+      .to('#Rectangle_537',{
+            scrollTrigger:{
+            trigger:'#Rectangle_537',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            markers:true,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:44.333
+      })
+      .to('#Rectangle_541',{
+            scrollTrigger:{
+            trigger:'#Rectangle_541',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            markers:true,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:13.333
+      })
+      .to('#Rectangle_542',{
+            scrollTrigger:{
+            trigger:'#Rectangle_542',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            markers:true,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:24.333
+      })
+      .to('#Rectangle_537',{
+            scrollTrigger:{
+            trigger:'#Rectangle_537',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:44.333
+      })
+      .to('#Rectangle_543',{
+            scrollTrigger:{
+            trigger:'#Rectangle_543',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:74.333
+      })
+      .to('#Rectangle_544',{
+            scrollTrigger:{
+            trigger:'#Rectangle_544',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:74.333
+      })
+
+tl_card_two
+      .to('.cards-one__icon-2',{
+            scrollTrigger:{
+            trigger:'.cards-one__icon-2',
+            toggleActions:"none none none none",
+            start:"-=200px",
+            end:"-=200px",
+            scrub:5,
+            markers:true,
+            onLeaveBack: self => self.disable()
+            },
+            transform: 'translateY(0px)',
+            opacity:1,
+            duration:1,
+            delay:1
+      })
+      .to('#Rectangle_537',{
+            scrollTrigger:{
+            trigger:'#Rectangle_537',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            markers:true,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:44
+      })
+      .to('#Rectangle_546',{
+            scrollTrigger:{
+            trigger:'#Rectangle_546',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            markers:true,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:36.891
+      })
+      .to('#Rectangle_547',{
+            scrollTrigger:{
+            trigger:'#Rectangle_547',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            markers:true,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:36.891
+      })
+      .to('#Rectangle_548',{
+            scrollTrigger:{
+            trigger:'#Rectangle_548',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:36.891
+      })
+      .to('#Rectangle_545',{
+            scrollTrigger:{
+            trigger:'#Rectangle_545',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:36.891
+      })
+      .to('#Rectangle_551',{
+            scrollTrigger:{
+            trigger:'#Rectangle_551',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:36.891
+      })
+      .to('#Rectangle_550',{
+            scrollTrigger:{
+            trigger:'#Rectangle_550',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:36.891
+      })
+      .to('#Rectangle_549',{
+            scrollTrigger:{
+            trigger:'#Rectangle_549',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:36.891
+      })
+
+tl_card_three
+      .to('.cards-one__icon-3',{
+            scrollTrigger:{
+            trigger:'.cards-one__icon-3',
+            toggleActions:"none none none none",
+            start:"-=200px",
+            end:"-=200px",
+            scrub:5,
+            markers:true,
+            onLeaveBack: self => self.disable()
+            },
+            transform: 'translateY(0px)',
+            opacity:1,
+            duration:1,
+            delay:1
+      })
+      .to('#Ellipse_19-2',{
+            scrollTrigger:{
+            trigger:'#Ellipse_19-2',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            markers:true,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            opacity:1
+      })
+      .to('#Ellipse_20-2',{
+            scrollTrigger:{
+            trigger:'#Ellipse_20-2',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            markers:true,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            opacity:1
+      })
+      .to('#Ellipse_19',{
+            scrollTrigger:{
+            trigger:'#Ellipse_19',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            markers:true,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            opacity:1
+      })
+      .to('#Ellipse_20',{
+            scrollTrigger:{
+            trigger:'#Ellipse_20',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            opacity:1
+      })
+      .to('#Rectangle_538',{
+            scrollTrigger:{
+            trigger:'#Rectangle_538',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:44
+      })
+      .to('#Rectangle_539',{
+            scrollTrigger:{
+            trigger:'#Rectangle_539',
+            toggleActions:"none none none none",
+            start:"-=250px",
+            end:"-=250px",
+            scrub:1,
+            onLeaveBack: self => self.disable()
+            },
+            duration:1,
+            width:54.333
+      })
+     

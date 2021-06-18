@@ -54,7 +54,7 @@
 /*---------------CARDS-ONE-----------------*/
 .cards-one__icon-1{
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-30px);
 }
 #Rectangle_537,
 #Rectangle_541,
@@ -65,7 +65,9 @@
 }
 /*---------------CARDS-TWO-----------------*/
 .cards-one__icon-2{
-    // opacity: 0;
+    opacity: 0;
+    transform: translateY(-30px);
+
 }
 #Rectangle_545,
 #Rectangle_546,
@@ -74,19 +76,20 @@
 #Rectangle_549,
 #Rectangle_550,
 #Rectangle_551{
-    // width: 0;
+    width: 0;
 }
 /*---------------CARDS-THREE---------------*/
 .cards-one__icon-3{
-    // opacity: 0;
+    opacity: 0;
+    transform: translateY(-30px);
 }
 #Ellipse_19-2,
 #Ellipse_20-2,
 #Ellipse_19,
 #Ellipse_20{
-    // opacity: 0;
+    opacity: 0;
 }
 #Rectangle_538,
 #Rectangle_539{
-    // width: 0;
+    width: 0;
 }
