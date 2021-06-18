@@ -78,44 +78,53 @@ button {
 /*---------------HERO-ONE-----------------*/
 .hero__card-1 {
   opacity: 0;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
 }
 
 #Mask-one {
   opacity: 0;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
 }
 
-#Rectangle_503 {
-  width: 0;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
-#Rectangle_507 {
-  width: 0;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
-#Rectangle_504 {
-  width: 0;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
-#Rectangle_505 {
-  width: 0;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
+#Rectangle_503,
+#Rectangle_507,
+#Rectangle_504,
+#Rectangle_505,
 #Rectangle_506 {
   width: 0;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+}
+
+/*---------------HERO-TWO-----------------*/
+.hero__card-2 {
+  opacity: 0;
+}
+
+#profilePicMask,
+#profilePicMask-3,
+#profilePicMask-5,
+#profilePicMask-7 {
+  opacity: 0;
+}
+
+#Rectangle_527,
+#Rectangle_528,
+#Rectangle_529,
+#Rectangle_530,
+#Rectangle_531,
+#Rectangle_532,
+#Rectangle_533,
+#Rectangle_534 {
+  width: 0;
+}
+
+.hero__card-3 {
+  opacity: 0;
+}
+
+#Rectangle_492,
+#Rectangle_494,
+#Rectangle_496,
+#Rectangle_497,
+#Rectangle_498 {
+  width: 0;
 }
 
 .hero {
