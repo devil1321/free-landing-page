@@ -27,9 +27,7 @@
             width: 100%;
             margin:5px 0px;
         }
-        @include breakpoint-down(small){
-            left:8px;
-        }
+        
         &:hover{
             &::after{
                 width: 98.5%;

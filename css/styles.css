@@ -899,12 +899,6 @@ button {
   }
 }
 
-@media (max-device-width: 39.9375em) {
-  .testimonials__card {
-    left: 8px;
-  }
-}
-
 .testimonials__card:hover::after {
   width: 98.5%;
 }
