@@ -46,6 +46,7 @@ tl_card_one
             start:"-=400px",
             end:"-=400px",
             scrub:5,
+            markers:true,
             onLeaveBack: self => self.disable()
             },
             transform: 'translateY(0px)',
