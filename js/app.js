@@ -50,7 +50,7 @@ tl_card_one
             },
             transform: 'translateY(0px)',
             opacity:1,
-            duration:1,
+            duration:2,
       })
       .to('#Rectangle_537',{
             scrollTrigger:{
@@ -61,7 +61,7 @@ tl_card_one
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:44.333
       })
       .to('#Rectangle_541',{
@@ -73,7 +73,7 @@ tl_card_one
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:13.333
       })
       .to('#Rectangle_542',{
@@ -85,7 +85,7 @@ tl_card_one
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:24.333
       })
       .to('#Rectangle_537',{
@@ -97,7 +97,7 @@ tl_card_one
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:44.333
       })
       .to('#Rectangle_543',{
@@ -109,7 +109,7 @@ tl_card_one
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:74.333
       })
       .to('#Rectangle_544',{
@@ -121,7 +121,7 @@ tl_card_one
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:74.333
       })
 
@@ -137,7 +137,7 @@ tl_card_two
             },
             transform: 'translateY(0px)',
             opacity:1,
-            duration:1,
+            duration:2,
             delay:1
       })
       .to('#Rectangle_537',{
@@ -149,7 +149,7 @@ tl_card_two
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:44
       })
       .to('#Rectangle_546',{
@@ -161,7 +161,7 @@ tl_card_two
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:36.891
       })
       .to('#Rectangle_547',{
@@ -173,7 +173,7 @@ tl_card_two
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:36.891
       })
       .to('#Rectangle_548',{
@@ -185,7 +185,7 @@ tl_card_two
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:36.891
       })
       .to('#Rectangle_545',{
@@ -197,7 +197,7 @@ tl_card_two
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:36.891
       })
       .to('#Rectangle_551',{
@@ -209,7 +209,7 @@ tl_card_two
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:36.891
       })
       .to('#Rectangle_550',{
@@ -221,7 +221,7 @@ tl_card_two
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:36.891
       })
       .to('#Rectangle_549',{
@@ -233,7 +233,7 @@ tl_card_two
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:36.891
       })
 
@@ -249,7 +249,7 @@ tl_card_three
             },
             transform: 'translateY(0px)',
             opacity:1,
-            duration:1,
+            duration:2,
             delay:1
       })
       .to('#Ellipse_19-2',{
@@ -261,7 +261,7 @@ tl_card_three
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             opacity:1
       })
       .to('#Ellipse_20-2',{
@@ -273,7 +273,7 @@ tl_card_three
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             opacity:1
       })
       .to('#Ellipse_19',{
@@ -285,7 +285,7 @@ tl_card_three
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             opacity:1
       })
       .to('#Ellipse_20',{
@@ -297,7 +297,7 @@ tl_card_three
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             opacity:1
       })
       .to('#Rectangle_538',{
@@ -309,7 +309,7 @@ tl_card_three
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:44
       })
       .to('#Rectangle_539',{
@@ -321,7 +321,160 @@ tl_card_three
             scrub:1,
             onLeaveBack: self => self.disable()
             },
-            duration:1,
+            duration:2,
             width:54.333
       })
      
+const article__cards = new gsap.timeline()
+const article__text = new gsap.timeline()
+
+article__cards
+.to('.article__svg-wrapper.one',{
+      scrollTrigger:{
+      trigger:'.article',
+      toggleActions:"none none none none",
+      start:"top center",
+      end:"+=150px",
+      scrub:5,
+      onLeaveBack: self => self.disable()
+      },
+      left:'-150px',
+      opacity:1,
+})
+.to('.article__svg-wrapper.two',{
+      scrollTrigger:{
+      trigger:'.article',
+      toggleActions:"none none none none",
+      start:"top center",
+      end:"+=150px",
+      scrub:5,
+      onLeaveBack: self => self.disable()
+      },
+      top:'250px',
+      opacity:1,
+})
+
+article__text
+.to('.article h2',{
+      scrollTrigger:{
+      trigger:'.article',
+      toggleActions:"none none none none",
+      start:"top center",
+      end:"+=150px",
+      scrub:5,
+      onLeaveBack: self => self.disable()
+      },
+      left:'0px',
+      opacity:1,
+})
+.to('.article p',{
+      scrollTrigger:{
+      trigger:'.article',
+      toggleActions:"none none none none",
+      start:"top center",
+      end:"+=150px",
+      scrub:6,
+      onLeaveBack: self => self.disable()
+      },
+      left:'0px',
+      opacity:1,
+})
+.to('.article button',{
+      scrollTrigger:{
+      trigger:'.article',
+      toggleActions:"none none none none",
+      start:"top center",
+      end:"+=150px",
+      scrub:7,
+      onLeaveBack: self => self.disable()
+      },
+      left:'-5px',
+      opacity:1,
+})
+
+
+
+const feature__cards = new gsap.timeline()
+const feature__text = new gsap.timeline()
+
+feature__cards
+.to('.feature__svg-wrapper.one',{
+      scrollTrigger:{
+      trigger:'.feature',
+      toggleActions:"none none none none",
+      start:"top center",
+      end:"+=150px",
+      scrub:5,
+      onLeaveBack: self => self.disable()
+      },
+      left:'100px',
+      top:'-300px',
+      opacity:1,
+})
+.to('.feature__svg-wrapper.two',{
+      scrollTrigger:{
+      trigger:'.feature',
+      toggleActions:"none none none none",
+      start:"top center",
+      end:"+=150px",
+      scrub:5,
+      onLeaveBack: self => self.disable()
+      },
+      top:'0px',
+      left:'0px',
+      opacity:1,
+})
+
+feature__text
+.to('.feature h2',{
+      scrollTrigger:{
+      trigger:'.feature',
+      toggleActions:"none none none none",
+      start:"top center",
+      end:"+=150px",
+      scrub:5,
+      onLeaveBack: self => self.disable()
+      },
+      left:'0px',
+      opacity:1,
+})
+.to('.feature p',{
+      scrollTrigger:{
+      trigger:'.feature',
+      toggleActions:"none none none none",
+      start:"top center",
+      end:"+=150px",
+      scrub:6,
+      onLeaveBack: self => self.disable()
+      },
+      left:'0px',
+      opacity:1,
+})
+.to('.feature button',{
+      scrollTrigger:{
+      trigger:'.feature',
+      toggleActions:"none none none none",
+      start:"top center",
+      end:"+=150px",
+      scrub:7,
+      onLeaveBack: self => self.disable()
+      },
+      left:'-5px',
+      opacity:1,
+})
+
+const testimonials = new gsap.timeline()
+
+testimonials
+.to('.testimonials__card',{
+      scrollTrigger:{
+      trigger:'.testimonials',
+      toggleActions:"none none none none",
+      start:"top center",
+      end:"+=50px",
+      scrub:5,
+      onLeaveBack: self => self.disable()
+      },
+      top:'0px',
+      opacity:1,
+})

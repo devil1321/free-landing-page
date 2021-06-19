@@ -459,7 +459,8 @@ button {
 }
 
 .article__svg-wrapper:first-of-type {
-  left: -150px;
+  left: -705px;
+  opacity: 0.5;
 }
 
 .article__svg-wrapper:first-of-type svg {
@@ -467,8 +468,9 @@ button {
 }
 
 .article__svg-wrapper:last-of-type {
+  opacity: 0.5;
   left: -100px;
-  top: 250px;
+  top: 350px;
   z-index: 2;
 }
 
@@ -494,9 +496,21 @@ button {
           align-items: flex-start;
 }
 
+.article__right-group h2 {
+  position: relative;
+  left: 1000px;
+  top: 0px;
+}
+
+.article__right-group p {
+  position: relative;
+  left: 1000px;
+  top: 0px;
+}
+
 .article__right-group button {
   position: relative;
-  left: -5px;
+  left: 1000px;
   top: 0px;
   border: 0px;
   background: transparent;
@@ -546,9 +560,21 @@ button {
   height: 700px;
 }
 
+.feature__left-group h2 {
+  position: relative;
+  left: -1000px;
+  top: 0px;
+}
+
+.feature__left-group p {
+  position: relative;
+  left: -1000px;
+  top: 0px;
+}
+
 .feature__left-group button {
   position: relative;
-  left: -5px;
+  left: -1000px;
   top: 0px;
   border: 0px;
   outline: none;
@@ -589,12 +615,15 @@ button {
 }
 
 .feature__svg-wrapper:first-of-type {
-  top: -300px;
-  left: 100px;
+  opacity: 0.5;
+  top: -400px;
+  left: 1000px;
 }
 
 .feature__svg-wrapper:last-of-type {
+  opacity: 0.5;
   left: -100px;
+  top: 500px;
 }
 
 .testimonials {
@@ -622,10 +651,11 @@ button {
 }
 
 .testimonials__card {
+  opacity: 0;
   cursor: pointer;
   margin: 0px 20px;
   position: relative;
-  top: 0px;
+  top: 30px;
   left: 0px;
   width: calc(70% / 3);
   background-color: white;

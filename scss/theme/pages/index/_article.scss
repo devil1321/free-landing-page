@@ -35,14 +35,18 @@
         top:0px;
         left:0px;
         &:first-of-type{
-            left:-150px;
+            // gsap to -150px
+            left:-705px;
+            opacity: 0.5;
             svg{
                 width: 120%;
             }
         }
         &:last-of-type{
+            // gsap to 250px
+            opacity:0.5;
             left:-100px;
-            top:250px;
+            top:350px;
             z-index: 2;
             svg{
                 width: 150%;
@@ -53,9 +57,22 @@
         width: 50%;
         height: 800px;
         @include createFlex(column,center,flex-start,null);
+        h2{
+            position: relative;
+            // gasp -5px
+            left:1000px;
+            top:0px;
+        }
+        p{
+            position: relative;
+            // gasp -5px
+            left:1000px;
+            top:0px;
+        }
         button{
             position: relative;
-            left:-5px;
+            // gasp -5px
+            left:1000px;
             top:0px;
             border:0px;
             background: transparent;
