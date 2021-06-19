@@ -4,33 +4,36 @@
 const tl_one = gsap.timeline()
 const tl_two = gsap.timeline()
 const tl_three = gsap.timeline()
-tl_one.to('.hero__card-1',{duration:0.7,opacity:1})
-      .to('#Mask-one',{duration:0.7,opacity:1})
-      .to('#Rectangle_503',{duration:0.7,width:124.349})
-      .to('#Rectangle_507',{duration:0.7,width:82.017})
-      .to('#Rectangle_504',{duration:0.7,width:387.597})
-      .to('#Rectangle_505',{duration:0.7,width:300.289})
-      .to('#Rectangle_506',{duration:0.7,width:230.177})
 
-tl_two.to('.hero__card-3',{duration:0.5,opacity:1,delay:0.5})
-      .to('#Rectangle_494',{duration:0.5,width:127.305})
-      .to('#Rectangle_496',{duration:0.5,width:127.305})
-      .to('#Rectangle_497',{duration:0.5,width:68.343})
-      .to('#Rectangle_498',{duration:0.5,width:68.343})
 
-tl_three.to('.hero__card-2',{duration:0.5,opacity:1,delay:1})
-      .to('#profilePicMask',{duration:0.5,opacity:1})
-      .to('#Rectangle_528',{duration:0.5,width:90.443})
-      .to('#Rectangle_527',{duration:0.5,width:148.883})   
-      .to('#profilePicMask-3',{duration:0.5,opacity:1})
-      .to('#Rectangle_530',{duration:0.5,width:148.883})
-      .to('#Rectangle_529',{duration:0.5,width:90.443})    
-      .to('#profilePicMask-5',{duration:0.5,opacity:1})
-      .to('#Rectangle_532',{duration:0.5,width:148.883})
-      .to('#Rectangle_531',{duration:0.5,width:90.443})   
-      .to('#profilePicMask-7',{duration:0.5,opacity:1})
-      .to('#Rectangle_534',{duration:0.5,width:148.883})
-      .to('#Rectangle_533',{duration:0.5,width:90.443})
+
+tl_one.to('.hero__card-1',{force3D:true,duration:0.7,opacity:1})
+      .to('#Mask-one',{force3D:true,duration:0.7,opacity:1})
+      .to('#Rectangle_503',{force3D:true,duration:0.7,width:124.349})
+      .to('#Rectangle_507',{force3D:true,duration:0.7,width:82.017})
+      .to('#Rectangle_504',{force3D:true,duration:0.7,width:387.597})
+      .to('#Rectangle_505',{force3D:true,duration:0.7,width:300.289})
+      .to('#Rectangle_506',{force3D:true,duration:0.7,width:230.177})
+
+tl_two.to('.hero__card-3',{force3D:true,duration:0.5,opacity:1,delay:0.5})
+      .to('#Rectangle_494',{force3D:true,duration:0.5,width:127.305})
+      .to('#Rectangle_496',{force3D:true,duration:0.5,width:127.305})
+      .to('#Rectangle_497',{force3D:true,duration:0.5,width:68.343})
+      .to('#Rectangle_498',{force3D:true,duration:0.5,width:68.343})
+
+tl_three.to('.hero__card-2',{force3D:true,duration:0.5,opacity:1,delay:1})
+      .to('#profilePicMask',{force3D:true,duration:0.5,opacity:1})
+      .to('#Rectangle_528',{force3D:true,duration:0.5,width:90.443})
+      .to('#Rectangle_527',{force3D:true,duration:0.5,width:148.883})   
+      .to('#profilePicMask-3',{force3D:true,duration:0.5,opacity:1})
+      .to('#Rectangle_530',{force3D:true,duration:0.5,width:148.883})
+      .to('#Rectangle_529',{force3D:true,duration:0.5,width:90.443})    
+      .to('#profilePicMask-5',{force3D:true,duration:0.5,opacity:1})
+      .to('#Rectangle_532',{force3D:true,duration:0.5,width:148.883})
+      .to('#Rectangle_531',{force3D:true,duration:0.5,width:90.443})   
+      .to('#profilePicMask-7',{force3D:true,duration:0.5,opacity:1})
+      .to('#Rectangle_534',{force3D:true,duration:0.5,width:148.883})
+      .to('#Rectangle_533',{force3D:true,duration:0.5,width:90.443})
 
 /*--------------------------CARDS-ONE-ANIMATIONS------------------------------ */
 
@@ -52,6 +55,7 @@ tl_card_one
             transform: 'translateY(0px)',
             opacity:1,
             duration:2,
+            force3D:true
       })
       .to('#Rectangle_537',{
             scrollTrigger:{
@@ -63,7 +67,8 @@ tl_card_one
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:44.333
+            width:44.333,
+            force3D:true
       })
       .to('#Rectangle_541',{
             scrollTrigger:{
@@ -87,7 +92,8 @@ tl_card_one
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:24.333
+            width:24.333,
+            force3D:true
       })
       .to('#Rectangle_537',{
             scrollTrigger:{
@@ -99,7 +105,8 @@ tl_card_one
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:44.333
+            width:44.333,
+            force3D:true
       })
       .to('#Rectangle_543',{
             scrollTrigger:{
@@ -111,7 +118,8 @@ tl_card_one
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:74.333
+            width:74.333,
+            force3D:true
       })
       .to('#Rectangle_544',{
             scrollTrigger:{
@@ -123,7 +131,8 @@ tl_card_one
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:74.333
+            width:74.333,
+            force3D:true
       })
 
 tl_card_two
@@ -139,7 +148,8 @@ tl_card_two
             transform: 'translateY(0px)',
             opacity:1,
             duration:2,
-            delay:1
+            delay:1,
+            force3D:true
       })
       .to('#Rectangle_537',{
             scrollTrigger:{
@@ -151,7 +161,8 @@ tl_card_two
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:44
+            width:44,
+            force3D:true
       })
       .to('#Rectangle_546',{
             scrollTrigger:{
@@ -163,7 +174,8 @@ tl_card_two
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:36.891
+            width:36.891,
+            force3D:true
       })
       .to('#Rectangle_547',{
             scrollTrigger:{
@@ -175,7 +187,8 @@ tl_card_two
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:36.891
+            width:36.891,
+            force3D:true
       })
       .to('#Rectangle_548',{
             scrollTrigger:{
@@ -187,7 +200,8 @@ tl_card_two
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:36.891
+            width:36.891,
+            force3D:true
       })
       .to('#Rectangle_545',{
             scrollTrigger:{
@@ -199,7 +213,8 @@ tl_card_two
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:36.891
+            width:36.891,
+            force3D:true
       })
       .to('#Rectangle_551',{
             scrollTrigger:{
@@ -211,7 +226,8 @@ tl_card_two
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:36.891
+            width:36.891,
+            force3D:true
       })
       .to('#Rectangle_550',{
             scrollTrigger:{
@@ -223,7 +239,8 @@ tl_card_two
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:36.891
+            width:36.891,
+            force3D:true
       })
       .to('#Rectangle_549',{
             scrollTrigger:{
@@ -235,7 +252,8 @@ tl_card_two
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:36.891
+            width:36.891,
+            force3D:true
       })
 
 tl_card_three
@@ -251,7 +269,8 @@ tl_card_three
             transform: 'translateY(0px)',
             opacity:1,
             duration:2,
-            delay:1
+            delay:1,
+            force3D:true
       })
       .to('#Ellipse_19-2',{
             scrollTrigger:{
@@ -263,7 +282,8 @@ tl_card_three
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            opacity:1
+            opacity:1,
+            force3D:true
       })
       .to('#Ellipse_20-2',{
             scrollTrigger:{
@@ -275,7 +295,8 @@ tl_card_three
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            opacity:1
+            opacity:1,
+            force3D:true
       })
       .to('#Ellipse_19',{
             scrollTrigger:{
@@ -287,7 +308,8 @@ tl_card_three
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            opacity:1
+            opacity:1,
+            force3D:true
       })
       .to('#Ellipse_20',{
             scrollTrigger:{
@@ -299,7 +321,8 @@ tl_card_three
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            opacity:1
+            opacity:1,
+            force3D:true
       })
       .to('#Rectangle_538',{
             scrollTrigger:{
@@ -311,7 +334,8 @@ tl_card_three
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:44
+            width:44,
+            force3D:true
       })
       .to('#Rectangle_539',{
             scrollTrigger:{
@@ -323,7 +347,8 @@ tl_card_three
             onLeaveBack: self => self.disable()
             },
             duration:2,
-            width:54.333
+            width:54.333,
+            force3D:true
       })
      
 const article__cards = new gsap.timeline()
@@ -341,6 +366,7 @@ article__cards
       },
       left:'-150px',
       opacity:1,
+      force3D:true
 })
 .to('.article__svg-wrapper.two',{
       scrollTrigger:{
@@ -353,6 +379,7 @@ article__cards
       },
       top:'250px',
       opacity:1,
+      force3D:true
 })
 
 article__text
@@ -367,6 +394,7 @@ article__text
       },
       left:'0px',
       opacity:1,
+      force3D:true
 })
 .to('.article p',{
       scrollTrigger:{
@@ -379,6 +407,7 @@ article__text
       },
       left:'0px',
       opacity:1,
+      force3D:true
 })
 .to('.article button',{
       scrollTrigger:{
@@ -391,6 +420,7 @@ article__text
       },
       left:'-5px',
       opacity:1,
+      force3D:true
 })
 
 
@@ -425,6 +455,7 @@ feature__cards
       left:left_one + 'px',
       top:'-300px',
       opacity:1,
+      force3D:true
 })
 .to('.feature__svg-wrapper.two',{
       scrollTrigger:{
@@ -438,6 +469,7 @@ feature__cards
       top:'0px',
       left:left_two + 'px',
       opacity:1,
+      force3D:true
 })
 
 feature__text
@@ -452,6 +484,7 @@ feature__text
       },
       left:'0px',
       opacity:1,
+      force3D:true
 })
 .to('.feature p',{
       scrollTrigger:{
@@ -464,6 +497,7 @@ feature__text
       },
       left:'0px',
       opacity:1,
+      force3D:true
 })
 .to('.feature button',{
       scrollTrigger:{
@@ -476,6 +510,7 @@ feature__text
       },
       left:'-5px',
       opacity:1,
+      force3D:true
 })
 
 const testimonials = new gsap.timeline()
@@ -492,4 +527,5 @@ testimonials
       },
       top:'0px',
       opacity:1,
+      force3D:true
 })
