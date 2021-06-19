@@ -4,6 +4,12 @@
         margin:40px auto;
         text-align: center;
         width: 30%;
+        @include breakpoint-down(medium-sm){
+            width: 100%;
+        }
+        @include breakpoint-down(small){
+            color:white;
+        }
     }
     &__group{
        
@@ -13,6 +19,20 @@
         margin:0px 20px;
         text-align: center;
         width: calc(80% / 3);
+        @include breakpoint-down(small){
+            width: 100%;
+            h3,p{
+                color:black;
+            }
+            &:first-of-type{
+                h3{
+                    color:white;
+                }
+                p{
+                    color:white;
+                }
+            }
+        }
         svg{
             width: 100%;
         }

@@ -8,6 +8,10 @@
         @include createFlex(column,center,flex-start,null);
         width: 50%;
         height:700px;
+        @include breakpoint-down(small){
+            width:100%;
+            margin-top:50px;
+        }
         h2{
             // gsap to 0px
             position: relative;
@@ -41,6 +45,10 @@
         position:relative;
         left:0px;
         top:0px;
+        @include breakpoint-down(small){
+            width:100%;
+            top:80px;
+        }
         &:after{
             content:'';
             position:absolute;
@@ -59,13 +67,13 @@
         left:0px;
         &:first-of-type{
             // gsap to left 100 and top -300
-            opacity: 0.5;
+            opacity: 0;
             top:-400px;
             left:1000px;
         }
         &:last-of-type{
             // gsap to 0 and -100
-            opacity: 0.5;
+            opacity: 0;
             left:-100px;
             top:500px
         }

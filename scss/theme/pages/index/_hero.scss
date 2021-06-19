@@ -1,16 +1,41 @@
 .hero{
     @include createFlex(row,space-between,flex-start,null);
+    @include breakpoint-down(small){
+        @include createFlex(row,space-between,flex-start,wrap);
+    }
+    @include breakpoint-down(medium-sm){
+        margin-top: -120px;
+    }
+    @include breakpoint-down(small){
+        margin-top: -100px;
+    }
     &__left-group{
         width: 50%;
+        @include breakpoint-down(medium-sm){
+            margin-bottom: 300px;
+        }
+        @include breakpoint-down(small){
+            width: 100%;
+        }
     }
     &__text{
         transform: translateY(50%);
+        
         h2{
             font-weight: $f-bold;
         }
         p{
             width: 70%;
+            @include breakpoint-down(small){
+                color:black;
+                line-height: 1.5;
+                width: 100%;
+            }
         }
+    }
+    &__form{
+        margin-top: 30px;
+      
         input{
             min-width: 220px;
             padding:8px;
@@ -18,6 +43,9 @@
             border:0px;
             box-shadow:0px 1px 3px  rgba(0,0,0,0.35);
             border-radius: 25px;
+            @include breakpoint-down(medium-sm){
+                min-width: 150px;
+            }
             &::placeholder{
                 font-style: italic;
             }
@@ -33,10 +61,10 @@
             border:0px;
             background-color: $btn-color;
             color:$main-fill;
+            @include breakpoint-down(small){
+                background-color: $circle-c-1;
+            }
         }
-    }
-    &__form{
-        margin-top: 30px;
     }
     &__brands{
        margin-top: 230px;
@@ -44,8 +72,26 @@
        grid-template-columns: repeat(3,1fr);
        grid-gap:0px;
        align-items: center;
+       @include breakpoint-down(medium-sm){
+        position: absolute;
+        top:25%;
+        left:20%;
+        grid-template-columns: repeat(12,1fr);
+        grid-gap: 20px;
+       }
+       @include breakpoint-down(small){
+        top:18%;
+        left:15px;
+        grid-template-columns: repeat(3,1fr);
+       }
        img{
            width: 80%;
+           @include breakpoint-down(medium-sm){
+               width: 100%;
+           }
+           @include breakpoint-down(small){
+               width: 80%;
+           }
        }
        img:first-of-type{
            width: 50%;
@@ -56,6 +102,12 @@
         position: relative;
         top:0px;
         left:0px;
+        @include breakpoint-down(medium-sm){
+            left:-50px;
+        }
+        @include breakpoint-down(small){
+            top:-80px;
+        }
     }
     &__bgs-wrapper{
         position: absolute;
@@ -70,28 +122,42 @@
         left:0px;
         z-index: -1;
         transform: translateX(10%);
+        @include breakpoint-down(small){
+            transform: translateX(3%) translateY(10%);
+        }
+        
     }
     &__bg{
         position:absolute;
         top:0px;
         left:0px;
         transform: translateX(0%) translateY(-40%);
+      
         img{
             width: 80%;
+           
         }
         &:first-of-type{
-            
+            @include breakpoint-down(small){
+                width: 600%;
+            }   
         }
         &:nth-of-type(2){
             transform: translateX(5%) translateY(-31%);
            img{
                width:70%;
+               @include breakpoint-down(small){
+                width: 300%;
+            }   
            }
         }
         &:last-of-type{
             transform: translateX(10%) translateY(-19%);
             img{
                 width:60%;
+                @include breakpoint-down(small){
+                    width: 200%;
+                }   
             }
         }
     }    
@@ -100,8 +166,8 @@
         position: relative;
         top:0px;
         left:0px;
-        svg{
-            // width: 100%;
+        @include breakpoint-down(small){
+            display: none;
         }
     }
 
@@ -119,6 +185,9 @@
         z-index: 3;
         width: 80%;
         transform: translateX(55%) translateY(0%);
+        @include breakpoint-down(medium-sm){
+            transform: translateX(55%) translateY(-5%);
+        }
     }
     &__card-3{
         z-index: 2;

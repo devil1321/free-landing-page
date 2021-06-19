@@ -1,4 +1,5 @@
 
+
 /*-----------------------------HERO-ANIMATIONS------------------------------ */
 const tl_one = gsap.timeline()
 const tl_two = gsap.timeline()
@@ -396,7 +397,21 @@ article__text
 
 const feature__cards = new gsap.timeline()
 const feature__text = new gsap.timeline()
-
+var left_one = 100
+var left_two = 0
+if(window.innerWidth === 1024  && window.innerHeight === 1366){
+      var left_one = 0
+      var left_two = -100
+}else if(window.innerWidth === 768  && window.innerHeight === 1024){
+      var left_one = -120
+      var left_two = -120
+}else if(window.innerWidth === 1024  && window.innerHeight === 768){
+      var left_one = -50
+      var left_two = -100
+}else if(window.innerWidth <= 540  && window.innerHeight < 840){
+      var left_one = -130
+      var left_two = -130
+}
 feature__cards
 .to('.feature__svg-wrapper.one',{
       scrollTrigger:{
@@ -407,7 +422,7 @@ feature__cards
       scrub:5,
       onLeaveBack: self => self.disable()
       },
-      left:'100px',
+      left:left_one + 'px',
       top:'-300px',
       opacity:1,
 })
@@ -421,7 +436,7 @@ feature__cards
       onLeaveBack: self => self.disable()
       },
       top:'0px',
-      left:'0px',
+      left:left_two + 'px',
       opacity:1,
 })
 

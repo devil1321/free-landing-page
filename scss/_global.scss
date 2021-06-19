@@ -30,4 +30,10 @@ button{
 .container{
     font-family:$f-fam;
     padding:0px 80px;
+    @include breakpoint-down(medium-sm){
+        padding:0px 20px;
+    }
+    @include breakpoint-down(small){
+        padding:0px 10px;
+    }
 }
