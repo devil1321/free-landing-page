@@ -23,6 +23,12 @@
         padding:20px;
         height:180px;
         box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+        i{
+            color:$f-main-color;
+        }
+        p{
+            color:$f-main-color;
+        }
         @include breakpoint-down(medium-sm){
             width: 100%;
             margin:5px 0px;
@@ -43,11 +49,23 @@
             transition: all 300ms ease-in-out;
         }
 
+        &:last-of-type{
+            .testimonials__profile-rating{
+                margin-bottom:16px;
+            }
+            .testimonials__profile-person{
+                margin-top: 10px;
+            }
+        }
 
+    }
+    &__profile-rating{
+        margin:0px;
     }
     &__profile-person{
         h6{margin:0px 5px;}
         p{margin:3px 5px;}
         @include createFlex(row,flex-start,center,null);
+        
     }
 }
